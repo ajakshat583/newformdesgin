@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click one</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .indexo {
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255,255,255,0.18);
+            backdrop-filter: blur(8px);
+            padding: 40px;
+            border-radius: 10px;
+        }
+        button {
+            background: linear-gradient(90deg, #00fff7 0%, #007cf0 100%);
+            color: #232526;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            box-shadow: 0 0 12px #00fff780;
+            transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+            border-radius: 25px;
+            border: none;
+            width: 20%;
+            padding: 5px;
+        }
+
+        button:hover {
+            background: linear-gradient(90deg, #007cf0 0%, #00fff7 100%);
+            color: #fff;
+            box-shadow: 0 0 24px #00fff7cc;
+        }
+        a {
+            color: white;
+            text-shadow: 0 0 4px #00fff780;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        h1 {
+            color: #00fff7;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px #00fff7, 0 0 16px #0ff;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        p {
+            color: #b2b8c6;
+            font-weight: 600;
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="indexo">
+   <h1> Welcome to my website!</h1><br>
+    <p>Click to create an account<button><a href="signup.html">SignUp</a></button></p>
+    <p>Already have an account click to<button><a href="signin.html">Login</a></button>
+    </div>
+</body>
+</html>
