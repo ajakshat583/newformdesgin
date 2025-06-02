@@ -37,7 +37,6 @@
             margin-bottom: 4px;
             letter-spacing: 1px;
         }
-        input[type="text"],
         input[type="password"],
         input[type="email"] {
             width: calc(100% - 10px);
@@ -95,8 +94,6 @@
             color: #fff;
             box-shadow: 0 0 16px #ff0055cc;
         }
-
-        input[type="text"]:focus,
         input[type="password"]:focus,
         input[type="email"]:focus {
             border: 1.5px solid #00fff7;
@@ -114,8 +111,12 @@
         <div class="close"><a href="index.html">X</a></div>
         <h1>Reset Password</h1>
         <form action="">
-            <label for="">Email</label><br>
+            <label for="email">Email</label><br>
             <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+            <label for="new_password">New Password</label><br>
+            <input type="password" name="new_password" id="new_password" placeholder="Enter new password"><br><br>
+            <label for="confirm_password">Confirm Password</label><br>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm new password"><br><br>
             <button type="submit">Reset Password</button><br><br>
             <label for="">Remembered your password?<a href="signin.html">Sign In</a></label><br><br>
         </form>
